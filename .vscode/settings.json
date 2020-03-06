@@ -1,0 +1,8 @@
+{
+  "files.encoding": "utf8",
+  "files.associations": {
+    "**/*.yml": "ansible",
+    "**/*.yaml": "ansible",
+    "**/facts/*": "jsonc"
+  },
+}
