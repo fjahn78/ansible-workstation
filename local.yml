@@ -4,4 +4,4 @@
   - name: Install htop
     pacman:
       name: htop
-      state: absent
+      state: present
