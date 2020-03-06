@@ -1,0 +1,7 @@
+- hosts: localhost
+  become: true
+  tasks:
+  - name: Install htop
+    pacman:
+      name: htop
+      state: present
