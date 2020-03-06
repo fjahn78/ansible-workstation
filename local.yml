@@ -1,7 +1,11 @@
+---
 - hosts: localhost
   become: true
-  tasks:
-  - name: Install packages
+  pre_tasks:
+  - name: update repositories
     pacman:
-      name: ['htop', 'mc', 'tmux']
-      state: present
+      update_cache: yes
+    changed_when: False
+
+  tasks:
+  - include: tasks/packages.yml

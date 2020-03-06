@@ -1,0 +1,6 @@
+---
+
+- name: Install packages
+  pacman:
+    name: ['htop', 'mc', 'tmux']
+    state: present
