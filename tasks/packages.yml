@@ -1,6 +1,13 @@
 ---
 
-- name: Install packages
+- name: Install packages | arch based
   pacman:
     name: ['htop', 'mc', 'tmux']
     state: present
+  when: ansible_distribution in ["Archlinux", "Manjaro"]
+
+- name: Install packages | debian based
+  apt:
+    name: ['htop', 'mc', 'tmux']
+    state: present
+  when: ansible_distribution in ["Debian", "Ubuntu"]

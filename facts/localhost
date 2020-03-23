@@ -1,0 +1,272 @@
+{
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "192.168.178.32",
+            "169.254.141.38"
+        ],
+        "ansible_all_ipv6_addresses": [
+            "fd00::e519:b8b5:49e4:d0e2",
+            "fd00::13d:a872:6db4:fbb0",
+            "fe80::e519:b8b5:49e4:d0e2",
+            "fe80::d1ce:46cf:457c:8d26"
+        ],
+        "ansible_apparmor": {
+            "status": "disabled"
+        },
+        "ansible_architecture": "x86_64",
+        "ansible_bios_date": "NA",
+        "ansible_bios_version": "NA",
+        "ansible_cmdline": {
+            "BOOT_IMAGE": "/kernel",
+            "init": "/init"
+        },
+        "ansible_date_time": {
+            "date": "2020-03-23",
+            "day": "23",
+            "epoch": "1584957830",
+            "hour": "11",
+            "iso8601": "2020-03-23T10:03:50Z",
+            "iso8601_basic": "20200323T110350090289",
+            "iso8601_basic_short": "20200323T110350",
+            "iso8601_micro": "2020-03-23T10:03:50.092481Z",
+            "minute": "03",
+            "month": "03",
+            "second": "50",
+            "time": "11:03:50",
+            "tz": "CET",
+            "tz_offset": "+0100",
+            "weekday": "Monday",
+            "weekday_number": "1",
+            "weeknumber": "12",
+            "year": "2020"
+        },
+        "ansible_default_ipv4": {},
+        "ansible_default_ipv6": {},
+        "ansible_device_links": {
+            "ids": {},
+            "labels": {},
+            "masters": {},
+            "uuids": {}
+        },
+        "ansible_devices": {},
+        "ansible_distribution": "Debian",
+        "ansible_distribution_file_parsed": true,
+        "ansible_distribution_file_path": "/etc/os-release",
+        "ansible_distribution_file_variety": "Debian",
+        "ansible_distribution_major_version": "10",
+        "ansible_distribution_release": "buster",
+        "ansible_distribution_version": "10",
+        "ansible_dns": {
+            "nameservers": [
+                "192.168.178.1",
+                "fd00::464e:6dff:fe46:d9f9"
+            ],
+            "search": [
+                "fritz.box"
+            ]
+        },
+        "ansible_domain": "localdomain",
+        "ansible_dynamic": {
+            "ipv4": {
+                "address": "127.0.0.1",
+                "broadcast": "127.255.255.255",
+                "netmask": "255.0.0.0",
+                "network": "127.0.0.0"
+            }
+        },
+        "ansible_effective_group_id": 1000,
+        "ansible_effective_user_id": 1000,
+        "ansible_env": {
+            "AMD_ENTRYPOINT": "vs/server/remoteExtensionHostProcess",
+            "COLORTERM": "truecolor",
+            "HOME": "/home/frank",
+            "HOSTTYPE": "x86_64",
+            "LANG": "en_US.UTF-8",
+            "LOGNAME": "frank",
+            "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+            "NAME": "win-odin",
+            "PATH": "/home/frank/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/FileBot/:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Frank Schumann/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Frank Schumann/AppData/Roaming/Dashlane/6.1907.0.17833/bin/Firefox_Extension/{442718d9-475e-452a-b3e1-fb1ee16b8e9f}/components:/mnt/c/Users/Frank Schumann/AppData/Roaming/Dashlane/6.1907.0.17833/ucrt:/mnt/c/Users/Frank Schumann/AppData/Roaming/Dashlane/6.1907.0.17833/bin/Qt:/mnt/c/Users/Frank Schumann/AppData/Roaming/Dashlane/6.1907.0.17833/bin/Ssl",
+            "PIPE_LOGGING": "true",
+            "PWD": "/home/frank/src/ansible-workstation",
+            "SHELL": "/bin/bash",
+            "SHLVL": "1",
+            "TERM": "xterm-256color",
+            "TERM_PROGRAM": "vscode",
+            "TERM_PROGRAM_VERSION": "1.43.1",
+            "USER": "frank",
+            "VERBOSE_LOGGING": "true",
+            "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-bcdb4329-4ada-4a34-a698-10ceb56abb18.sock",
+            "WSLENV": "VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up",
+            "WSL_DISTRO_NAME": "Debian",
+            "_": "/usr/local/bin/ansible"
+        },
+        "ansible_eth0": {
+            "device": "eth0",
+            "ipv6": [
+                {
+                    "address": "fd00::e519:b8b5:49e4:d0e2",
+                    "prefix": "64",
+                    "scope": "global"
+                },
+                {
+                    "address": "fd00::13d:a872:6db4:fbb0",
+                    "prefix": "128",
+                    "scope": "global"
+                },
+                {
+                    "address": "fe80::e519:b8b5:49e4:d0e2",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "b8:ae:ed:3f:4d:0a",
+            "mtu": 1500,
+            "promisc": false
+        },
+        "ansible_eth1": {
+            "device": "eth1",
+            "ipv6": [
+                {
+                    "address": "fe80::d1ce:46cf:457c:8d26",
+                    "prefix": "64",
+                    "scope": "link"
+                }
+            ],
+            "macaddress": "00:1a:7d:da:71:11",
+            "mtu": 1500,
+            "promisc": false
+        },
+        "ansible_fibre_channel_wwn": [],
+        "ansible_fips": false,
+        "ansible_form_factor": "NA",
+        "ansible_fqdn": "win-odin.localdomain",
+        "ansible_hostname": "win-odin",
+        "ansible_hostnqn": "",
+        "ansible_interfaces": [
+            "lo",
+            "eth0",
+            "eth1",
+            "dynamic"
+        ],
+        "ansible_is_chroot": false,
+        "ansible_iscsi_iqn": "",
+        "ansible_kernel": "4.4.0-19041-Microsoft",
+        "ansible_kernel_version": "#1-Microsoft Fri Dec 06 14:06:00 PST 2019",
+        "ansible_lo": {
+            "device": "lo",
+            "ipv6": [
+                {
+                    "address": "::1",
+                    "prefix": "128",
+                    "scope": "host"
+                }
+            ],
+            "mtu": 1500,
+            "promisc": false
+        },
+        "ansible_local": {},
+        "ansible_lsb": {},
+        "ansible_machine": "x86_64",
+        "ansible_machine_id": "42ccda32846b42e3ba2b86267338236b",
+        "ansible_memfree_mb": 516,
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 733,
+                "used": 7411
+            },
+            "real": {
+                "free": 516,
+                "total": 8144,
+                "used": 7628
+            },
+            "swap": {
+                "cached": 0,
+                "free": 22843,
+                "total": 24576,
+                "used": 1733
+            }
+        },
+        "ansible_memtotal_mb": 8144,
+        "ansible_mounts": [],
+        "ansible_nodename": "win-odin",
+        "ansible_os_family": "Debian",
+        "ansible_pkg_mgr": "apt",
+        "ansible_proc_cmdline": {
+            "BOOT_IMAGE": "/kernel",
+            "init": "/init"
+        },
+        "ansible_processor": [
+            "0",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz",
+            "1",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz",
+            "2",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz",
+            "3",
+            "GenuineIntel",
+            "Intel(R) Core(TM) i5-4460  CPU @ 3.20GHz"
+        ],
+        "ansible_processor_cores": 4,
+        "ansible_processor_count": 1,
+        "ansible_processor_threads_per_core": 1,
+        "ansible_processor_vcpus": 4,
+        "ansible_product_name": "NA",
+        "ansible_product_serial": "NA",
+        "ansible_product_uuid": "NA",
+        "ansible_product_version": "NA",
+        "ansible_python": {
+            "executable": "/usr/bin/python3",
+            "has_sslcontext": true,
+            "type": "cpython",
+            "version": {
+                "major": 3,
+                "micro": 3,
+                "minor": 7,
+                "releaselevel": "final",
+                "serial": 0
+            },
+            "version_info": [
+                3,
+                7,
+                3,
+                "final",
+                0
+            ]
+        },
+        "ansible_python_version": "3.7.3",
+        "ansible_real_group_id": 1000,
+        "ansible_real_user_id": 1000,
+        "ansible_selinux": {
+            "status": "Missing selinux Python library"
+        },
+        "ansible_selinux_python_present": false,
+        "ansible_service_mgr": "sysvinit",
+        "ansible_swapfree_mb": 22843,
+        "ansible_swaptotal_mb": 24576,
+        "ansible_system": "Linux",
+        "ansible_system_capabilities": [
+            ""
+        ],
+        "ansible_system_capabilities_enforced": "True",
+        "ansible_system_vendor": "NA",
+        "ansible_uptime_seconds": 6567,
+        "ansible_user_dir": "/home/frank",
+        "ansible_user_gecos": ",,,",
+        "ansible_user_gid": 1000,
+        "ansible_user_id": "frank",
+        "ansible_user_shell": "/bin/bash",
+        "ansible_user_uid": 1000,
+        "ansible_userspace_architecture": "x86_64",
+        "ansible_userspace_bits": "64",
+        "ansible_virtualization_role": "NA",
+        "ansible_virtualization_type": "NA",
+        "gather_subset": [
+            "all"
+        ],
+        "module_setup": true
+    },
+    "changed": false
+}

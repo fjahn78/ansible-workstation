@@ -5,3 +5,4 @@
     name: "ansible provision"
     minute: "*/10"
     job: "/usr/bin/ansible-pull -o -U https://github.com/fschumann1211/ansible-workstation.git > /dev/null"
+    

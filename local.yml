@@ -2,10 +2,21 @@
 - hosts: localhost
   become: true
   pre_tasks:
-  - name: update repositories
+  - name: update repositories | arch based
     pacman:
       update_cache: yes
     changed_when: False
+
+  - name: update repositories | debian based
+    apt:
+      update_cache: yes
+    changed_when: False
+
+  - name: update repositories | Centos
+    yum:
+      update_cache: yes
+    changed_when: False
+
 
   tasks:
   - include: tasks/packages.yml
