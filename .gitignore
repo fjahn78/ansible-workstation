@@ -1,7 +1,7 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.gitignore.io/api/visualstudiocode,linux,ansible
-# Edit at https://www.gitignore.io/?templates=visualstudiocode,linux,ansible
+# Created by https://www.gitignore.io/api/visualstudiocode,linux,ansible,vagrant
+# Edit at https://www.gitignore.io/?templates=visualstudiocode,linux,ansible,vagrant
 
 ### Ansible ###
 *.retry
@@ -21,6 +21,16 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+### Vagrant ###
+# General
+.vagrant/*
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -32,7 +42,7 @@
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/visualstudiocode,linux,ansible
+# End of https://www.gitignore.io/api/visualstudiocode,linux,ansible,vagrant
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
