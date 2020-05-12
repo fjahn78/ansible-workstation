@@ -5,4 +5,6 @@
     name: "ansible provision"
     minute: "*/10"
     job: "ansible-pull -o -U https://github.com/fschumann1211/ansible-workstation.git > /dev/null"
+    cron_file: ansible_pull
+    state: present
     
